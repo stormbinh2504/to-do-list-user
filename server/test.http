@@ -1,0 +1,29 @@
+POST http://localhost:5000/post
+Content-Type: application/json
+
+{
+    "username" : "binhhuun5",
+    "email": "nnbinh3",
+    "phone": "7567",
+    "address": "Cầu Giấy"
+}
+
+###
+GET http://localhost:5000/get
+Content-Type: application/json
+
+###
+DELETE  http://localhost:5000/delete/60ea56f5116b7c339871b407
+Content-Type: application/json
+
+###
+PUT  http://localhost:5000/put/60ea57c959ea8e271cbc898c
+Content-Type: application/json
+
+{
+    "username" : "binhhuun6",
+    "email": "nnbinh6",
+    "phone": "789798982", 
+    "address": "Hà Đông"
+}
+
